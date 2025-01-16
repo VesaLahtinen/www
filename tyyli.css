@@ -1,0 +1,71 @@
+:root {
+  --accent-color: rgb(0, 0, 0);
+}
+
+body{
+  background-image: url(kuvat/liquid-cheese.svg);
+  background-size: cover;
+}
+
+p {
+  margin-bottom: 50;
+  margin-right: 220px;
+  margin-left: 220px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+span{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 50;
+  margin-right: 220px;
+  margin-left: 220px;
+  font-size: 12px;
+}
+
+img {
+  margin-top: 75px;
+  width: 800px;
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  margin-right: 220px;
+  margin-left: 220px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  margin-right: 220px;
+  margin-left: 220px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+}
+
+figcaption {
+  margin-right: 220px;
+  margin-left: 220px;
+  margin-bottom: 50px;
+  line-height: 1px;
+  color: #808080;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+a,
+a:visited,
+a:active {
+  color: var(--accent-color);
+}
+
+a:hover {
+  text-decoration: none;
+}
